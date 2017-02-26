@@ -1,0 +1,29 @@
+@RULE shockwave
+
+@TABLE
+
+n_states:4
+neighborhood:Moore
+symmetries:permute
+
+var i={0,1,2,3}
+var j={0,1,2,3}
+var k={0,1,2,3}
+var l={0,1,2,3}
+var m={0,1,2,3}
+var n={0,1,2,3}
+var o={0,1,2,3}
+var p={0,1,2,3}
+
+1,i,j,k,l,m,n,o,p,2 
+2,1,i,j,k,l,m,n,o,0
+2,i,j,k,l,m,n,o,p,1
+0,1,i,j,k,l,m,n,o,1
+
+
+@COLORS
+
+0  48  48  48   dark gray
+1 255 255 255   white
+2  30  30 255   blue
+3   0   0   0   black

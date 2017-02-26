@@ -1,0 +1,39 @@
+@RULE GOLAD
+
+@TABLE
+
+n_states:4
+neighborhood:Moore
+symmetries:permute
+
+var livingMaj={1,2}
+var livingC={1,2,3}
+var living1={1,2,3}
+var living2={1,2,3}
+
+var i={0,1,2,3}
+var j={0,1,2,3}
+var k={0,1,2,3}
+var l={0,1,2,3}
+var m={0,1,2,3}
+var n={0,1,2,3}
+var o={0,1,2,3}
+var p={0,1,2,3}
+
+0,livingMaj,livingMaj,living1,0,0,0,0,0,livingMaj
+0,livingMaj,3,3,0,0,0,0,0,livingMaj
+0,3,3,3,0,0,0,0,0,3
+0,1,2,3,0,0,0,0,0,3
+
+livingC,living1,living2,i,0,0,0,0,0,livingC
+
+livingC,i,j,k,l,m,n,o,p,0  
+
+@COLORS
+1 255 0 0 
+2 0 0 255
+3 255 255 255 
+
+
+
+
